@@ -1,0 +1,7 @@
+<project name="mailer" default="deploy" basedir=".">
+    <target name="deploy">
+        <exec executable="/bin/bash">
+            <arg line="/home/prizela/subs/mailer/deploy.sh"/>
+        </exec>
+    </target>
+</project>
