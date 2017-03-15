@@ -103,7 +103,7 @@ class SendGrid extends Transport
     private function getTransport()
     {
         if (empty($this->transport) === true) {
-            $this->transport = new \SendGrid('API_KEY');
+            $this->transport = new \SendGrid(' API_KEY ');
         }
 
         return $this->transport;
